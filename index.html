@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahiyat Tanzim - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
+    <!-- Optionally, you can include a link to a CSS framework like Bootstrap or Bulma -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Mahiyat Tanzim</h1>
+        <h2>Undergraduate</h2>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am Mahiyat Tanzim. I am an undergraduate currently in 3rd year 1st semester at department of Computer Science and Engineering in Jahangirnagar University. I have skills in problem solving, programming language, Microsoft office, internet surfing, supervision, presentation, leadership, planning, self learning, and tenchnical communication. I worked part time as a warranty wing leader in Pro 2 Interactive Ltd. from August 2020 to October 2020.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <div class="img-disp"><img src="download.png" alt="Project 1" class="img-size"><p class="img-cap">Projects</p></div>
+                <h3>Electronic Store Stock Management System</h3>
+                <p>
+                    Description:
+                    <ul>
+                        <li>Language Used: Java</li>
+                        <li>Problems Solved: Solved the problems of managing manually the stock of an electronic store</li>
+                    </ul>
+                </p>
+            </div>
+            <!-- Add more project items as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                You can reach me at [your.email@example.com] or use the form below to send me a message.
+            </p>
+            <form action="send_email.php" method="post"> <!-- Replace 'send_email.php' with your server-side script -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Mahiyat Tanzim. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional: You can add JavaScript files for interactivity if needed -->
+
+</body>
+</html>
