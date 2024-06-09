@@ -11,12 +11,12 @@ import {
   Typography,
 } from '@mui/material';
 
-import edsm from '../accessories/electronic-device-stock-management.jpg';
+import ora from '../accessories/obe-result-analysis.jpg';
 
 export default function Project1() {
   return (
     <Link
-      href="https://github.com/Mahiyat/Electronic_Device_Stock_Management_System.git"
+      href="https://github.com/Mahiyat/obe-project-result-analysis.git"
       target="_blank"
       rel="noopener noreferrer"
       underline="none"
@@ -26,17 +26,17 @@ export default function Project1() {
         sx={{
           cursor: 'pointer',
           maxWidth: '585px',
-          maxHeight: '600px',
+          maxHeight: '590px',
           width: '585px',
-          height: '590px',
+          height: '600px',
           boxShadow: '0 4px 8px 0'
         }}
       >
         <CardActionArea>
           <CardMedia
             component="img"
-            image={edsm}
-            alt="Project 1"
+            image={ora}
+            alt="Project 2"
             sx={{
               height: '300px',
               width: '100%',
@@ -49,18 +49,26 @@ export default function Project1() {
           />
           <CardContent>
             <Typography variant="h5" component="div">
-              Electronic Store Stock Management System
+              OBE Marks Entry and Result Analysis System
             </Typography>
             <Typography variant="body2" color="textSecondary">
               <List>
                 <ListItem>
-                  <ListItemText primary="Language Used" secondary="Java" />
+                  <ListItemText
+                    primary="Frontend Technology"
+                    secondary="React"
+                  />
+                </ListItem>
+                <ListItem>
+                  <ListItemText
+                    primary="Backend Technology"
+                    secondary="Django"
+                  />
                 </ListItem>
                 <ListItem>
                   <ListItemText
                     primary="Description"
-                    secondary="A System solving the problems of managing manually
-                      the stock of an electronic store"
+                    secondary="A marks entry and result analysis system based on the Outcome Based Education (OBE), with an AI feature for commenting"
                   />
                 </ListItem>
               </List>

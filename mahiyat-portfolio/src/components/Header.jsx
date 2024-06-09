@@ -3,7 +3,7 @@ import { Container, Link, Typography } from '@mui/material';
 
 const Header = () => {
   return (
-    <Container sx={{ textAlign: 'center', padding: '2rem 0' }}>
+    <Container sx={{ textAlign: 'center', paddingY: '80px' }}>
       <Typography variant="h2">Mahiyat Tanzim</Typography>
       <Typography variant="h5" color="textSecondary">
         <Link
